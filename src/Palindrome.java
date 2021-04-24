@@ -67,7 +67,7 @@ public class Palindrome {
     }
 
     public static long findPalindrome() {
-        int numberOfDigits = (int) (Math.log10(number) + 1);;
+        int numberOfDigits = (int) (Math.log10(number) + 1);
         char [] cNumber1 = longToChar(number, numberOfDigits);
 
         flipCenter(cNumber1);
